@@ -50,7 +50,40 @@
 .menu a{
   text-decoration: none;
   color: white;
+  
 }
+
+.submenu{
+  background-color: #7B7070;
+  display: flex;
+ 
+}
+
+.submenu-container{
+  margin-left: 414px;
+  margin-bottom: 13px;
+  height: 49px;
+  width: 1920px;
+  
+}
+
+.submenu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.submenu ul li {
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: white;
+}
+
 
 .text-about{
   font-family: 'Trebuchet MS', sans-serif;
