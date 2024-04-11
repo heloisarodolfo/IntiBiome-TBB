@@ -1,0 +1,290 @@
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.intibiome{
+  height: 79px;
+  width: 195px;
+  margin-left: 862px;
+  align-items: center;
+}
+
+.search{
+  margin-left: 424px;
+  margin-right: 415px;
+}
+
+.banner{
+  height: 550px;
+  width: 1920px;
+  
+}
+
+.menu{
+  background-color: #389CD6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 49px;
+  width: 1920px;
+  
+}
+
+.menu ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 605px;
+  margin-left: 581px;
+  list-style: none;
+}
+
+.menu ul li{
+  color: white;
+  font-size: 16px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.text-about{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #7B7070;
+}
+
+.text-about h2{
+  font-size: 39px;
+  color: #389CD6;
+}
+
+.text-about-2{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  color: #7B7070;
+}
+
+.text-about-2 h2{
+  font-size: 39px;
+  color: #389CD6;
+}
+
+.container-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container-products{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-products h2{
+  font-size: 39px;
+  color: #389CD6;
+}
+
+.img-products{
+  height: 437px ;
+  width: 1920px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 391px;
+  margin-left: 395px;
+  margin-top: 80px;
+  margin-bottom: 144px;
+}
+
+.card-wellness{
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  height: 530px ;
+  width: 356px ;
+}
+
+.card-wellness p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #7B7070;
+}
+
+.card-wellness h2{
+  background-color: #389CD6;
+  color: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  margin-top: 52px;
+  border-radius:16px;
+  padding: 16px;
+}
+
+.card-active{
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  height: 530px ;
+  width: 356px ;
+}
+
+.card-active p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #7B7070;
+}
+
+.card-active h2{
+  background-color: #309D5F;
+  color: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  margin-top: 52px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.card-agecare{
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  height: 530px ;
+  width: 356px ;
+}
+
+.card-agecare p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #7B7070;
+}
+
+.card-agecare h2{
+  background-color: #EE6381;
+  color: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  margin-top: 52px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.container-discoveries{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.container-discoveries h2{
+  font-size: 39px;
+  color: #389CD6;
+}
+
+.card-1{
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  height: 355px ;
+  width:356px ;
+}
+
+.card-1 p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #7B7070;
+}
+
+.card-2{
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  height: 355px ;
+  width:356px ;
+}
+
+.card-2 p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #7B7070;
+}
+
+.card-3{
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  height: 355px ;
+  width:356px ;
+}
+
+.card-3 p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #7B7070;
+}
+
+.button-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-part button{
+  background-color: #389CD6;
+  color:white;
+  font-size: 20px;
+  border: none;
+  border-radius: 16px;
+  height: 62px; 
+  width: 326px;
+  padding: 26px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.footer-container{
+  background-color: #389CD6;
+  color: #ffff;
+  margin-top: 120px;
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 16px;
+  margin-bottom: 74px;
+  margin-left: 551px;
+  margin-right: 551px;
+}
+
+.footer-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
