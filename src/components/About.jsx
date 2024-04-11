@@ -4,7 +4,8 @@ import "../App.css";
 function About() {
   return (
     <div className="container" id="about">
-      <img src="../banner-hero.png" alt="banner" className="banner" />
+      <img src="../banner-hero.png" alt="banner" className="about-image" />
+      <img src="../responsive-image-about" alt="" className="about-image-responsive" />
       <div className="text-about">
         <h2>we're here to help</h2>
         <p>
@@ -22,10 +23,11 @@ function About() {
       </div>
       <div className="container-img">
         <img src="../icons.png" alt="" className="icons" />
+        <img src="../icons-responsive.png" alt="" className="icons-responsive"/>
       </div>
       <div className="text-about-2">
         <h2>
-          whatever you age. whatever your <br />lifestyle. whatever your interests.
+          whatever your age. whatever your <br />lifestyle. whatever your interests.
         </h2>
         <p>
           Co-created with gynaecologists, our revolutionary products have been

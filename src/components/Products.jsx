@@ -24,6 +24,7 @@ function Products() {
         </div>
       </div>        
       <img src="../Asset 22.png" alt="" className="img-products" />
+      <img src="../responsive-image-products" alt="" className="img-products-responsive" />
     </div>
   );
 }

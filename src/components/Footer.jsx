@@ -12,8 +12,8 @@ function Footer() {
         <p>legal notice</p>
       </div>
       <div className="footer-images">
-        <img src="../ulabs.png" alt="" />
-        <img src="../instagram-icon.png" alt="" />
+        <img src="../ulabs.png" alt="" className="ulabs" />
+        <img src="../instagram-icon.png" alt="" className="instagram" />
       </div>
     </div>
   );
