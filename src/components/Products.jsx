@@ -14,7 +14,7 @@ function Products() {
         </div>
         <div className="card-active">
           <img src="../image mask verde.png" alt="" />
-          <p>intibiome active extra protection intimate wash</p>
+          <p>intibiome active extra protection <br /> intimate wash</p>
           <h2>active</h2>
         </div>
         <div className="card-agecare">
