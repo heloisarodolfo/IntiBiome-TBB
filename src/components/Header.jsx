@@ -5,6 +5,11 @@ function Header() {
     const [isSubMenuVisible, setSubMenuVisible] = useState(false);
     const [isSubMenu2Visible, setSubMenu2Visible] = useState(false);
     const [isSubMenu3Visible, setSubMenu3Visible] = useState(false);
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
 
     return (
         <header className="header" >
@@ -12,6 +17,11 @@ function Header() {
                 <div className="logo">
                     <img src="../Header.png" alt="" className="intibiome"/>
                     <img src="../ic.search.png" alt="" className="search" />
+                </div>
+                <div className="hamburger-menu" onClick={toggleMenu}>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
                 </div>
                 <nav className="menu">
                     <ul>

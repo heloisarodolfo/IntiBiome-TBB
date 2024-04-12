@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .logo{
   display: flex;
   align-items: center;
@@ -32,6 +38,14 @@
   display: none;
 }
 
+.hamburger-menu{
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 .menu{
   background-color: #389CD6;
   display: flex;
@@ -39,13 +53,12 @@
   justify-content: center;
   height: 49px;
   width: 1920px;
-  
 }
 
 .menu ul{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 605px;
   margin-left: 581px;
   list-style: none;
@@ -100,7 +113,7 @@
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   margin-top: 80px;
   margin-bottom: 40px;
   color: #7B7070;
@@ -111,9 +124,15 @@
   color: #389CD6;
 }
 
+.container-img{
+  align-items: center;
+}
+
 .icons{
   background-image: url(../public/icons.png);
   display: block;
+  height: 259px;
+  width: 1132px;
 }
 
 .icons-responsive{
@@ -128,7 +147,7 @@
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   margin-top: 80px;
   margin-bottom: 120px;
   color: #7B7070;
@@ -142,13 +161,11 @@
 .container-img{
   display: flex;
   flex-direction: column;
-  align-items: center;
 
 }
 
 .container-products{
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -334,6 +351,7 @@
   margin-top: 120px;
   padding-top: 56px;
   padding-bottom: 64px;
+  width: 1920px;
 }
 
 .content{
@@ -354,6 +372,29 @@
 }
 
 @media screen and (max-width: 500px) {
+
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intibiome{
+    height: 58px;
+    width: 143px;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .hamburger-menu{
+    display: block;
+  }
+
+  .container{
+    display: block;
+  }
 
   .about-image{
     display: none;
@@ -381,6 +422,7 @@
     display: block;
     height:121px;
     width: 392px;
+    
   }
 
   .text-about-2{
@@ -400,9 +442,15 @@
 
   .card-container{
     display: flex;
-    margin-left: 21px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 216px;
     margin-bottom: 64px;
     margin-top: 40px;
+  }
+
+  .card-container h2{
+    margin-top: 60px;
   }
 
   .img-products{
@@ -418,6 +466,10 @@
     margin-top: 40px;
     font-size: 31px;
     text-align: center;
+  }
+
+  .button-part{
+    margin-top: 40px;
   }
 
   .footer-container{
@@ -443,6 +495,7 @@
   .ulabs{
     width: 116px;
     height: 29px;
+    margin-bottom: 108px;
   }
 
   .instagram{
